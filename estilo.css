@@ -68,6 +68,7 @@ header{
     color: #FFFFFF;
     gap: 16px;
     background-color: #285E67;
+    margin-bottom: 60px;
 }
 .grupo1{
     width: 1300px;
@@ -195,6 +196,7 @@ header{
     text-align: center;
     padding-top: 100px;
     margin-bottom: 60px;
+    margin-bottom: 150px;
 
 }
 .grupo2{
@@ -217,19 +219,71 @@ header{
     justify-content: space-between;
     padding-top: 119px;
     padding-bottom: 119px;
-
-
-
 }
 .fondorosa>div{
 
     margin-right: auto;
     margin-left: auto;
+ 
 
 }
 
 
 
 
+/*Footer*/
 
 
+
+.logofoot{
+    display: flex;
+}
+.logofoot img{
+    width: 26px;
+    padding-right: 10px;
+}
+.logofoot h1{
+    font-size: 21px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+footer{
+
+    width: 1440px;
+    height: 245px;
+    display: flex;
+    background-color: #285E67;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    align-items: center;
+
+}
+footer div{
+
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+.rrss>img{
+
+    margin: 10px;    
+
+}
+
+.navegadorfoot ul{
+    display: flex;
+}
+.navegadorfoot>ul>li{
+    list-style: none;
+    padding-right: 20px;
+}
+.navegadorfoot>ul>li>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
