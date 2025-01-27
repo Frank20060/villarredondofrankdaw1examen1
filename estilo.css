@@ -84,3 +84,52 @@ header{
 
 }
 
+
+
+.grisredondeado{
+
+    background-color: #F4F4F4;
+    border-radius: 12px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 112px;
+    padding-right: 112px;
+
+
+}
+.sect2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 446px;
+    align-items: center;
+}
+.sect2>div{
+    width: 589px;
+}
+.sect2>div>h1{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+    color: #2B2B2B;
+}
+.sect2>div>div{
+    display: flex;
+}
+.sect2>div>div>div{
+    width: 260px;
+    padding-left: 10px;
+}
+.sect2>img{
+
+    width: 291px;
+
+}
+.pluma1{
+
+    width: 58px;
+
+}
+
+
