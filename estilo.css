@@ -68,7 +68,6 @@ header{
     color: #FFFFFF;
     gap: 16px;
     background-color: #285E67;
-    margin-bottom: 60px;
 }
 .grupo1{
     width: 1300px;
@@ -87,7 +86,7 @@ header{
 
 
 .grisredondeado{
-
+    margin-top: 50px;
     background-color: #F4F4F4;
     border-radius: 12px;
     width: 1100px;
@@ -122,14 +121,10 @@ header{
     padding-left: 20px;
 }
 .sect2>img{
-
     width: 291px;
-
 }
 .pluma1{
-
     width: 58px;
-
 }
 .sect3{
     padding-top: 50px;
@@ -137,31 +132,103 @@ header{
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
-
 }
-
 .sect3>div>img{
-
     width: 623px;
     margin-right: 50px;
 }
 .sect3>div>h1{
-
     padding-top: 10px;
     font-weight: 600;
     font-size: 50px;
-
-    
-
 }
 .sect3>div>div{
 
     display: flex;
     margin-bottom: 20px;
 
-}.sect3>div>div>p{
+}
+.sect3>div>div>p{
     margin: 20px;
 }
+
+.sect4{
+
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    height: 541px;
+    align-items: center;
+
+}
+.sect4>div>img{
+
+    margin-right: 50px;
+}
+.sect4>div>h1{
+
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 30px;
+
+}
+.sect4>div>div{
+    padding-top: 30px;
+    display: flex;
+
+}
+.sect4>div>div>div{
+
+    width: 237px;
+    margin-right: 40px;
+
+}
+
+.fondoimagen{
+    margin-top: 80px;
+    color: #FFFFFF;
+    background-image: url(imagenes/fondo1.svg);
+    width: 1300px;
+    height: 567px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+
+}
+.grupo2{
+
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fondorosa{
+
+    background-color: #FCE2D7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1165px;
+    color: #2B2B2B;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-between;
+    padding-top: 119px;
+    padding-bottom: 119px;
+
+
+
+}
+.fondorosa>div{
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
 
 
 
