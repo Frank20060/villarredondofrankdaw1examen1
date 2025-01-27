@@ -119,7 +119,7 @@ header{
 }
 .sect2>div>div>div{
     width: 260px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .sect2>img{
 
@@ -131,5 +131,38 @@ header{
     width: 58px;
 
 }
+.sect3{
+    padding-top: 50px;
+    display: flex;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sect3>div>img{
+
+    width: 623px;
+    margin-right: 50px;
+}
+.sect3>div>h1{
+
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 50px;
+
+    
+
+}
+.sect3>div>div{
+
+    display: flex;
+    margin-bottom: 20px;
+
+}.sect3>div>div>p{
+    margin: 20px;
+}
+
+
 
 
