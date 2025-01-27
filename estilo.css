@@ -1,15 +1,25 @@
 body{
-    font-family: roboto;
+    font-family: Poppins;
+    background-color: #dbdbdb;
 }
 .contenedor{
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
 }
+
+
+/*Header*/
+
+
 header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
+    padding-left: 70px;
+    padding-right: 60px;
 }
 .logo{
     display: flex;
@@ -34,3 +44,43 @@ header{
     color: #2B2B2B;
     font-size: 16px;
 }
+
+/*Main*/
+
+.sect1{
+    justify-content: center;
+    text-align: center;
+}
+.sect1 h1{
+    font-size: 65px;
+    color: #2A2A2A;
+}
+.sect1 p{
+    font-size: 16px;
+    color: #2B2B2B;
+}
+.sect1 button{
+    margin-top: 20px;
+    width: 251px;
+    height: 56px; 
+    border-radius: 67px;
+    border: transparent;
+    color: #FFFFFF;
+    gap: 16px;
+    background-color: #285E67;
+    margin-bottom: 60px;
+}
+.grupo1{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grupo1 img{
+
+    width: 626px;
+
+}
+
